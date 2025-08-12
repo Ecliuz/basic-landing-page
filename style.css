@@ -122,16 +122,14 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 2px;
-    padding: 50px 0px;
+    padding: 100px 0px;
 }
 
 .quote-wrap {
     max-width: 880px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
+    padding-bottom: 5px;
 }
 
 .quote-wrap p {
@@ -139,19 +137,44 @@ nav {
     font-size: 36px;
     font-weight: 300;
     color: #1F2937;
-    padding: 50px 50px;
+    padding: 0px 45px;
 
 }
 
 .quote-wrap span {
     font-weight: 500;
     font-size: 25px;
-    align-items: flex-end;
+    padding-right: 75px;
+    text-align: right;
 }
 
+.cta-background {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+}
 
-.cta div {
+.cta-container {
     background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0px;
+    width: 1000px;
+    border-radius: 0.5rem;
+}
+
+.cta-text {
+    color: #F9FAF8;
+}
+
+.cta-button {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-weight: 700;
+    border: #F9FAF8 solid;
+    border-radius: 0.5rem;
+    padding: 7px 30px;
 }
 
 footer {
