@@ -60,12 +60,12 @@ nav {
 .hero-text p {
     font-size: 18px;
     margin: 0px 0 20px 0;
-
+    color: #E5E7EB;
 }
 
 .hero-image {
     background-color: #6C737C;
-    padding: 120px 135px 150px;
+    padding: 120px 135px 100px;
 }
 
 .hero-image p {
@@ -106,7 +106,7 @@ nav {
 
 .info h1 {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 30px;
     font-size: 36px;
     color: #1F2937;
@@ -179,4 +179,12 @@ nav {
 
 footer {
     background-color: #242D39;
+    padding: 40px 0px;
+}
+
+.footer-text {
+    color:#F9FAF8;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
 }
