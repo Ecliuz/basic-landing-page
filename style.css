@@ -81,3 +81,79 @@ nav {
     padding: 8px 40px;
     border-radius: 0.5rem;
 }
+
+.square {
+    border: #3882F6 solid;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 0.75rem;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.text-square p {
+    width: 150px;
+    text-align: center;
+    margin-top: 10px;
+    color: #1F2937;
+}
+
+.info h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.boxes {
+    margin-bottom: 100px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    padding: 50px 0px;
+}
+
+.quote-wrap {
+    max-width: 880px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.quote-wrap p {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    padding: 50px 50px;
+
+}
+
+.quote-wrap span {
+    font-weight: 500;
+    font-size: 25px;
+    align-items: flex-end;
+}
+
+
+.cta div {
+    background-color: #3882F6;
+}
+
+footer {
+    background-color: #242D39;
+}
